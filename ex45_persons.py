@@ -155,33 +155,3 @@ class Hero(Person):
 
 class Enemy(Person):
     pass
-
-
-'''
-ivan = Hero(20, 5, 5, 5)
-ivan.print_abilities()
-ivan.get_defend_artefact()
-ivan.print_abilities()
-ivan.get_attack_artefact()
-ivan.print_abilities()
-'''
-
-'''
-ivan.change_abilities('hp', -5)
-ivan.print_abilities()
-ivan.register_hit(ivan.melee)
-ivan.print_abilities()
-
-print(ivan.show_ability('distant'))
-ivan.damage_melee()
-
-ivan.damage_distant()
-ivan.be_clever()
-
-print(ivan.isAlive())
-
-ivan.change_abilities('hp', -10)
-print(ivan.isAlive())
-
-print(ivan.choose_ability())
-'''
